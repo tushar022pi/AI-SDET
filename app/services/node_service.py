@@ -21,7 +21,7 @@ class NodeService:
 
                 document_version=version,
 
-                logical_node_id=node["content_hash"],
+                logical_node_id=node["logical_node_id"],
 
                 is_changed=False
             )
